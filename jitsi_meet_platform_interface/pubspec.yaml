@@ -10,7 +10,13 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  plugin_platform_interface: ^2.0.0
+        #ref: master
+  jitsi_meet_platform_interface:
+    git:
+      url: https://github.com/olawhizzy/jitsi_meet_olawhizzy.git
+      path: jitsi_meet_platform_interface/
+      ref: main
+      #ref: master
 
 dev_dependencies:
   flutter_test:
